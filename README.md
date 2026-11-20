@@ -35,6 +35,16 @@ gerbang kualitas.
 - **profesional** (ala PMBOK): lugas, aktif, satu ide per kalimat — untuk laporan/proposal/dokumen
   kerja. Guardrail: tetap kalimat utuh, dilarang fragmen gaya slide.
 
+## Dukungan platform
+
+Engine-nya = agent host. Script di sini jadi gerbang kualitas. Jalan lintas platform:
+
+| Platform | Jalur | Status |
+|---|---|---|
+| Claude Code | `skills/humanize/SKILL.md` + `/humanize` | ✅ |
+| Codex | `prompts/humanize.md` (salin ke `~/.codex/prompts/`) | ✅ |
+| Google Antigravity | `AGENTS.md` + `.agents/rules/humanize.md` (root, auto-load v1.20.3+) | ✅ |
+
 ## Struktur
 
 ```
