@@ -1,0 +1,7 @@
+# korpus mentah: terlalu besar / hak cipta pihak ketiga — jangan di-commit
+corpus/
+# python
+__pycache__/
+*.pyc
+# os
+.DS_Store

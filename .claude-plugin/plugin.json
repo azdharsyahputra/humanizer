@@ -1,0 +1,7 @@
+{
+  "name": "humanizer-id",
+  "version": "0.1.0",
+  "description": "Tulis ulang draft (mis. keluaran AI) jadi prosa ilmiah Bahasa Indonesia yang natural & berkualitas, dipandu profil tulisan manusia asli + gerbang kualitas otomatis. Fokus mutu, bukan pengelabu detektor.",
+  "author": { "name": "kkn/humanizer" },
+  "keywords": ["humanizer", "bahasa-indonesia", "academic-writing", "rewrite", "style"]
+}

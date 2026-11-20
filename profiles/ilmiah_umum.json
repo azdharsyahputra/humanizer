@@ -1,0 +1,80 @@
+{
+  "n_docs": 3000,
+  "total_sent": 744604,
+  "total_word": 12446852,
+  "words_per_sent_mean": {
+    "mean": 17.2996,
+    "stdev": 4.0813
+  },
+  "words_per_sent_median": {
+    "mean": 13.3395,
+    "stdev": 3.8532
+  },
+  "words_per_sent_stdev": {
+    "mean": 18.2273,
+    "stdev": 10.459
+  },
+  "burstiness": {
+    "mean": 0.7592,
+    "stdev": 0.1264
+  },
+  "commas_per_sent": {
+    "mean": 1.101,
+    "stdev": 0.4345
+  },
+  "top_opener_share": {
+    "mean": 0.0534,
+    "stdev": 0.0247
+  },
+  "ttr": {
+    "mean": 0.2829,
+    "stdev": 0.0476
+  },
+  "formal_conn_per_sent": {
+    "mean": 0.1148,
+    "stdev": 0.0542
+  },
+  "informal_conn_per_sent": {
+    "mean": 0.2355,
+    "stdev": 0.1461
+  },
+  "first_person_per_sent": {
+    "mean": 0.0032,
+    "stdev": 0.0187
+  },
+  "passive_per_sent": {
+    "mean": 0.5312,
+    "stdev": 0.1951
+  },
+  "hedge_per_sent": {
+    "mean": 0.0155,
+    "stdev": 0.0181
+  },
+  "fragment_rate": {
+    "mean": 0.2835,
+    "stdev": 0.1041
+  },
+  "len_dist": {
+    "s1_5": {
+      "mean": 0.2835,
+      "stdev": 0.1041
+    },
+    "s6_10": {
+      "mean": 0.1293,
+      "stdev": 0.0427
+    },
+    "s11_18": {
+      "mean": 0.2282,
+      "stdev": 0.0609
+    },
+    "s19_30": {
+      "mean": 0.2152,
+      "stdev": 0.057
+    },
+    "s31p": {
+      "mean": 0.1438,
+      "stdev": 0.0659
+    }
+  },
+  "label": "ilmiah_umum"
+}
