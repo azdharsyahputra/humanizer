@@ -1,0 +1,93 @@
+{
+  "n_docs": 412,
+  "total_sent": 8232,
+  "total_word": 79761,
+  "words_per_sent_mean": {
+    "mean": 9.6873,
+    "stdev": 1.6659
+  },
+  "words_per_sent_median": {
+    "mean": 8.5109,
+    "stdev": 1.6957
+  },
+  "words_per_sent_stdev": {
+    "mean": 5.725,
+    "stdev": 1.6596
+  },
+  "len_cv": {
+    "mean": 0.589,
+    "stdev": 0.1176
+  },
+  "burstiness": {
+    "mean": 0.6489,
+    "stdev": 0.1371
+  },
+  "commas_per_sent": {
+    "mean": 0.7627,
+    "stdev": 0.2596
+  },
+  "top_opener_share": {
+    "mean": 0.1595,
+    "stdev": 0.0623
+  },
+  "ttr": {
+    "mean": 0.685,
+    "stdev": 0.0448
+  },
+  "formal_conn_per_sent": {
+    "mean": 0.0095,
+    "stdev": 0.0233
+  },
+  "informal_conn_per_sent": {
+    "mean": 0.0703,
+    "stdev": 0.0628
+  },
+  "first_person_per_sent": {
+    "mean": 0.2322,
+    "stdev": 0.1303
+  },
+  "passive_per_sent": {
+    "mean": 0.1138,
+    "stdev": 0.0915
+  },
+  "hedge_per_sent": {
+    "mean": 0.022,
+    "stdev": 0.0348
+  },
+  "fragment_rate": {
+    "mean": 0.2666,
+    "stdev": 0.1102
+  },
+  "padding_per_sent": {
+    "mean": 0.001,
+    "stdev": 0.0077
+  },
+  "specificity_per_sent": {
+    "mean": 0.0331,
+    "stdev": 0.0804
+  },
+  "len_dist": {
+    "s1_5": {
+      "mean": 0.2666,
+      "stdev": 0.1102
+    },
+    "s6_10": {
+      "mean": 0.3737,
+      "stdev": 0.1135
+    },
+    "s11_18": {
+      "mean": 0.274,
+      "stdev": 0.1053
+    },
+    "s19_30": {
+      "mean": 0.0758,
+      "stdev": 0.065
+    },
+    "s31p": {
+      "mean": 0.0098,
+      "stdev": 0.0235
+    }
+  },
+  "label": "ya_aksi_matahari",
+  "note": "Gaya YA/aksi cepat orang-pertama dari novel Matahari (Tere Liye). Register fiksi."
+}

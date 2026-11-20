@@ -49,6 +49,14 @@ Default = **ilmiah** (aturan di atas). Jika user minta gaya "profesional/jelas/P
 - Profil acuan: `profiles/naratif_coelho.json` (bukan ilmiah_umum).
 - Substansi konkret (angka/sitasi) TIDAK berlaku di mode ini.
 
+**Mode YA_AKSI (ala Matahari/Tere Liye) — fiksi remaja, tempo cepat:**
+- Register **fiksi, BUKAN ilmiah**: abaikan aturan pasif/formal/substansi.
+- Kalimat **pendek & nyeplak**: target kata/kalimat ~9-10, banyak fragmen tegas (≤5 kata ~25%).
+- Boleh **orang pertama ("aku")**, emosi, tempo cepat, cliffhanger.
+- Dialog padat + beat aksi pendek ("Aku menepuk dahi.").
+- Profil acuan: `profiles/ya_aksi_matahari.json`.
+- Beda dari mode `naratif` (Coelho): ini lebih pendek, cepat, orang-1; naratif lebih tenang, orang-3.
+
 ## Alur kerja
 1. **Ambil draft**: dari file yang disebut user, atau teks yang dipaste. Simpan ke file sementara bila perlu.
 2. **Tulis ulang** mengikuti Target gaya di atas. Pertahankan struktur argumen & semua fakta.
