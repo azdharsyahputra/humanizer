@@ -40,6 +40,15 @@ Default = **ilmiah** (aturan di atas). Jika user minta gaya "profesional/jelas/P
   tugas akademik formal, konfirmasi ke user apakah penguji menerima gaya aktif/kalimat pendek;
   untuk laporan, proposal, dokumen profesional, gaya ini ideal.
 
+**Mode NARATIF (ala Coelho/fabel) — untuk fiksi, cerpen, konten naratif:**
+- Register **fiksi, BUKAN ilmiah**: abaikan aturan pasif/konjungsi-formal/substansi-sitasi di atas.
+- Kalimat **sedang-pendek & jernih**: target kata/kalimat ~15 (median ~13), `len_cv` > 0.5.
+- **Kata sederhana, konkret, imajistik.** Hindari jargon & nominalisasi.
+- Dialog hidup (~25–30% kalimat boleh dialog), dengan beat aksi.
+- Nada **parabel/reflektif**: boleh aforisme, tapi jangan klise.
+- Profil acuan: `profiles/naratif_coelho.json` (bukan ilmiah_umum).
+- Substansi konkret (angka/sitasi) TIDAK berlaku di mode ini.
+
 ## Alur kerja
 1. **Ambil draft**: dari file yang disebut user, atau teks yang dipaste. Simpan ke file sementara bila perlu.
 2. **Tulis ulang** mengikuti Target gaya di atas. Pertahankan struktur argumen & semua fakta.

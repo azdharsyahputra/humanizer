@@ -29,11 +29,13 @@ gerbang kualitas.
 | **Substansi** | `specificity_per_sent` | angka/sitasi/istilah per kalimat — generik = kosong |
 | Variasi | `ttr`, `top_opener_share` | jangan ulang diksi/pembuka |
 
-## Dua mode gaya
+## Tiga mode gaya
 
-- **ilmiah** (default): formal, pasif, kalimat lengkap — untuk skripsi/jurnal.
+- **ilmiah** (default): formal, pasif, kalimat lengkap — untuk skripsi/jurnal. Profil `ilmiah_umum`.
 - **profesional** (ala PMBOK): lugas, aktif, satu ide per kalimat — untuk laporan/proposal/dokumen
   kerja. Guardrail: tetap kalimat utuh, dilarang fragmen gaya slide.
+- **naratif** (ala Coelho/fabel): kalimat sedang-pendek jernih (~15 kata), dialog hidup, kata
+  sederhana — untuk fiksi/cerpen/konten. Profil `naratif_coelho`; aturan register ilmiah tidak berlaku.
 
 ## Dukungan platform
 

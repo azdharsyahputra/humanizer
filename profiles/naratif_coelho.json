@@ -1,0 +1,93 @@
+{
+  "n_docs": 28,
+  "total_sent": 497,
+  "total_word": 7463,
+  "words_per_sent_mean": {
+    "mean": 14.9761,
+    "stdev": 1.6132
+  },
+  "words_per_sent_median": {
+    "mean": 13.6607,
+    "stdev": 2.0268
+  },
+  "words_per_sent_stdev": {
+    "mean": 7.8514,
+    "stdev": 2.4131
+  },
+  "len_cv": {
+    "mean": 0.5203,
+    "stdev": 0.1386
+  },
+  "burstiness": {
+    "mean": 0.5631,
+    "stdev": 0.1532
+  },
+  "commas_per_sent": {
+    "mean": 0.9724,
+    "stdev": 0.1855
+  },
+  "top_opener_share": {
+    "mean": 0.1613,
+    "stdev": 0.0637
+  },
+  "ttr": {
+    "mean": 0.6019,
+    "stdev": 0.0401
+  },
+  "formal_conn_per_sent": {
+    "mean": 0.0298,
+    "stdev": 0.0432
+  },
+  "informal_conn_per_sent": {
+    "mean": 0.1652,
+    "stdev": 0.0897
+  },
+  "first_person_per_sent": {
+    "mean": 0.1499,
+    "stdev": 0.1393
+  },
+  "passive_per_sent": {
+    "mean": 0.2287,
+    "stdev": 0.1377
+  },
+  "hedge_per_sent": {
+    "mean": 0.0099,
+    "stdev": 0.026
+  },
+  "fragment_rate": {
+    "mean": 0.0767,
+    "stdev": 0.065
+  },
+  "padding_per_sent": {
+    "mean": 0.0,
+    "stdev": 0.0
+  },
+  "specificity_per_sent": {
+    "mean": 0.0099,
+    "stdev": 0.0213
+  },
+  "len_dist": {
+    "s1_5": {
+      "mean": 0.0767,
+      "stdev": 0.065
+    },
+    "s6_10": {
+      "mean": 0.2578,
+      "stdev": 0.0953
+    },
+    "s11_18": {
+      "mean": 0.3945,
+      "stdev": 0.125
+    },
+    "s19_30": {
+      "mean": 0.2195,
+      "stdev": 0.0977
+    },
+    "s31p": {
+      "mean": 0.0516,
+      "stdev": 0.0534
+    }
+  },
+  "label": "naratif_coelho",
+  "note": "Gaya fabel/naratif dari Sang Alkemis (Coelho, terjemahan). Register fiksi, bukan ilmiah."
+}
