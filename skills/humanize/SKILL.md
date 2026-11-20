@@ -67,6 +67,25 @@ Default = **ilmiah** (aturan di atas). Jika user minta gaya "profesional/jelas/P
 - Beda dari `ya_aksi` (Matahari): sama orang-1 tapi ini jauh lebih panjang & merenung, bukan cepat.
   Beda dari `naratif` (Coelho): sama panjang tapi ini orang-1 batiniah, bukan orang-3 eksternal.
 
+**Mode THRILLER_PSIKOLOGIS — close third-person limited, misteri psikologis:**
+- Register **fiksi, BUKAN ilmiah**: abaikan aturan pasif/formal/substansi.
+- **POV orang ketiga terbatas** ("dia", nama tokoh), tapi nempel ke kepala SATU tokoh per
+  bagian. Ganti POV hanya di batas bab/adegan, jangan di tengah adegan.
+- **Narasi hanya tahu yang tokoh POV tahu** (Perceived Reality). Narator dilarang membocorkan
+  fakta objektif, motif tokoh lain, atau hal yang terjadi di luar persepsi tokoh.
+- **Ritme ala introspektif**: kalimat ~15 kata, `len_cv` > 0.6. Kalimat pendek yang tajam
+  diselingi kalimat panjang yang berputar di pikiran tokoh (ragu, rasa bersalah, menebak-nebak).
+- **Petunjuk ditanam, bukan dijelaskan**: lewat benda, dokumen, tingkah laku, celah waktu, atau
+  ingatan yang tidak cocok. Jangan beri tahu pembaca bahwa itu petunjuk.
+- **Tiap tokoh menyembunyikan sesuatu**, termasuk dari dirinya sendiri. Biarkan pembenaran diri
+  tokoh terasa masuk akal tapi retak.
+- **Ritme per tokoh** (opsional): tokoh muda/gelisah → kalimat lebih pendek (condong ke
+  `ya_aksi`); tokoh tua/reflektif → lebih panjang (condong ke `introspektif`).
+- Profil acuan ritme: `profiles/introspektif_dazai.json`. Abaikan metrik orang-pertama ("aku")
+  karena mode ini orang ketiga.
+- CATATAN: belum ada korpus thriller asli; mode ini gabungan aturan naratif (POV) + introspektif
+  (ritme & interioritas). Bisa dikalibrasi ulang bila ada novel thriller orang-ketiga.
+
 ## Alur kerja
 1. **Ambil draft**: dari file yang disebut user, atau teks yang dipaste. Simpan ke file sementara bila perlu.
 2. **Tulis ulang** mengikuti Target gaya di atas. Pertahankan struktur argumen & semua fakta.

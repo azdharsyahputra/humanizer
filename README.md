@@ -29,7 +29,7 @@ gerbang kualitas.
 | **Substansi** | `specificity_per_sent` | angka/sitasi/istilah per kalimat — generik = kosong |
 | Variasi | `ttr`, `top_opener_share` | jangan ulang diksi/pembuka |
 
-## Lima mode gaya
+## Enam mode gaya
 
 - **ilmiah** (default): formal, pasif, kalimat lengkap — untuk skripsi/jurnal. Profil `ilmiah_umum`.
 - **profesional** (ala PMBOK): lugas, aktif, satu ide per kalimat — untuk laporan/proposal/dokumen
@@ -40,6 +40,9 @@ gerbang kualitas.
   tempo cepat — untuk fiksi remaja/petualangan. Profil `ya_aksi_matahari`.
 - **introspektif** (ala Dazai/No Longer Human): kalimat sedang variatif, orang-pertama, monolog
   batin murung — untuk fiksi sastrawi/reflektif. Profil `introspektif_dazai`.
+- **thriller_psikologis**: close third-person limited, narasi hanya tahu yang tokoh POV tahu,
+  petunjuk ditanam diam-diam, ritme ala introspektif. Gabungan aturan (belum ada korpus thriller);
+  ritme diukur pakai profil `introspektif_dazai`.
 
 (Mode fiksi mengabaikan aturan register ilmiah seperti pasif & substansi-sitasi.)
 
