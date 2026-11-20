@@ -57,6 +57,16 @@ Default = **ilmiah** (aturan di atas). Jika user minta gaya "profesional/jelas/P
 - Profil acuan: `profiles/ya_aksi_matahari.json`.
 - Beda dari mode `naratif` (Coelho): ini lebih pendek, cepat, orang-1; naratif lebih tenang, orang-3.
 
+**Mode INTROSPEKTIF (ala Dazai/No Longer Human) — monolog batin sastrawi:**
+- Register **fiksi, BUKAN ilmiah**: abaikan aturan pasif/formal/substansi.
+- Kalimat **sedang (~15 kata) tapi variatif tinggi** (`len_cv` > 0.6): selang kalimat pendek
+  tajam dengan kalimat panjang berkelok yang merenung.
+- **Orang pertama ("aku")**, introspektif, jujur menyakitkan, nada murung/melankolis.
+- Fokus ke **interioritas** (pikiran, rasa malu, keterasingan), bukan aksi.
+- Profil acuan: `profiles/introspektif_dazai.json`.
+- Beda dari `ya_aksi` (Matahari): sama orang-1 tapi ini jauh lebih panjang & merenung, bukan cepat.
+  Beda dari `naratif` (Coelho): sama panjang tapi ini orang-1 batiniah, bukan orang-3 eksternal.
+
 ## Alur kerja
 1. **Ambil draft**: dari file yang disebut user, atau teks yang dipaste. Simpan ke file sementara bila perlu.
 2. **Tulis ulang** mengikuti Target gaya di atas. Pertahankan struktur argumen & semua fakta.

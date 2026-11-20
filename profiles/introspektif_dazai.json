@@ -1,0 +1,93 @@
+{
+  "n_docs": 38,
+  "total_sent": 668,
+  "total_word": 10173,
+  "words_per_sent_mean": {
+    "mean": 15.3271,
+    "stdev": 2.7167
+  },
+  "words_per_sent_median": {
+    "mean": 13.9474,
+    "stdev": 2.5798
+  },
+  "words_per_sent_stdev": {
+    "mean": 8.6582,
+    "stdev": 3.0346
+  },
+  "len_cv": {
+    "mean": 0.5648,
+    "stdev": 0.1407
+  },
+  "burstiness": {
+    "mean": 0.5994,
+    "stdev": 0.1359
+  },
+  "commas_per_sent": {
+    "mean": 1.0315,
+    "stdev": 0.3018
+  },
+  "top_opener_share": {
+    "mean": 0.2168,
+    "stdev": 0.0818
+  },
+  "ttr": {
+    "mean": 0.6698,
+    "stdev": 0.0449
+  },
+  "formal_conn_per_sent": {
+    "mean": 0.079,
+    "stdev": 0.0565
+  },
+  "informal_conn_per_sent": {
+    "mean": 0.1843,
+    "stdev": 0.1743
+  },
+  "first_person_per_sent": {
+    "mean": 0.6122,
+    "stdev": 0.1596
+  },
+  "passive_per_sent": {
+    "mean": 0.2602,
+    "stdev": 0.2129
+  },
+  "hedge_per_sent": {
+    "mean": 0.0659,
+    "stdev": 0.073
+  },
+  "fragment_rate": {
+    "mean": 0.0968,
+    "stdev": 0.0912
+  },
+  "padding_per_sent": {
+    "mean": 0.0,
+    "stdev": 0.0
+  },
+  "specificity_per_sent": {
+    "mean": 0.0044,
+    "stdev": 0.0197
+  },
+  "len_dist": {
+    "s1_5": {
+      "mean": 0.0968,
+      "stdev": 0.0912
+    },
+    "s6_10": {
+      "mean": 0.2503,
+      "stdev": 0.0821
+    },
+    "s11_18": {
+      "mean": 0.3575,
+      "stdev": 0.1162
+    },
+    "s19_30": {
+      "mean": 0.2222,
+      "stdev": 0.0987
+    },
+    "s31p": {
+      "mean": 0.0732,
+      "stdev": 0.0744
+    }
+  },
+  "label": "introspektif_dazai",
+  "note": "Gaya orang-pertama introspektif/sastrawi dari No Longer Human (Orang Gagal, Dazai, terjemahan). Register fiksi."
+}
